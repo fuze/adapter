@@ -22,7 +22,7 @@
     "test": "grunt && grunt downloadBrowser && mocha test/unit && karma start test/karma.conf.js"
   },
   "dependencies": {
-    "rtcpeerconnection-shim": "^1.2.15",
+    "rtcpeerconnection-shim": "git+ssh://git@github.com:fuze/rtcpeerconnection-shim#fuze-edge-patch-1.2.15",
     "sdp": "^2.9.0"
   },
   "engines": {
